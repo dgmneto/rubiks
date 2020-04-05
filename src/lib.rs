@@ -1,3 +1,5 @@
+mod cube;
+
 #[cfg(test)]
 mod tests {
     #[test]

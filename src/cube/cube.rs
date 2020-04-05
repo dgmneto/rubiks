@@ -1,3 +1,5 @@
+use super::transformation::Transformation;
+
 pub type Coordinate = (usize, usize, usize);
 pub type CubeState = [[[u8; 3]; 3]; 6];
 
@@ -19,6 +21,13 @@ impl Cube {
                 [[4; 3]; 3],
                 [[5; 3]; 3],
             ],
+        }
+    }
+
+    pub fn apply(&self, transformation: Transformation) -> Self {
+        Self {
+            transformations: self.transformations + 1,
+            state: transformation.apply(&self.state),
         }
     }
 }

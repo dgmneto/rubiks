@@ -2,7 +2,7 @@ pub type Coordinate = (usize, usize, usize);
 pub type CubeState = [[[u8; 3]; 3]; 6];
 
 pub struct Cube {
-    pub transformations: i64,
+    pub transformations: u32,
 
     state: CubeState,
 }

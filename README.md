@@ -83,3 +83,4 @@ This is what is left to be done ordered by priority:
 - [ ] Implement proper CLI
   - [ ] Define protocol of input and output
   - [ ] Define important options and arguments
+- [ ] Document `Cube`'s API

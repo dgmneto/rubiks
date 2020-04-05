@@ -74,7 +74,7 @@ TODO: complete with all used approaches
 
 This is what is left to be done ordered by priority:
 
-- [ ] Implement represantion of rubik's cube
+- [X] Implement represantion of rubik's cube
 - [ ] Preprocess transformations
 - [ ] Implement Dijkstra
 - [ ] Implement A* with some score function
@@ -83,3 +83,4 @@ This is what is left to be done ordered by priority:
 - [ ] Implement proper CLI
   - [ ] Define protocol of input and output
   - [ ] Define important options and arguments
+- [ ] Document `Cube`'s API
